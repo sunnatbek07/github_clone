@@ -6,7 +6,7 @@ import bell from "@/assets/icons/bell.svg";
 import plus from "@/assets/icons/plus.svg";
 import arrowFilled from "@/assets/icons/arrowdown-filled.svg";
 import Image from 'next/image';
-import avatar from "@/assets/images/avatar.png";
+import avatar from "@/assets/images/GitHubLogo.png";
 
 const Header = () => {
     return (
@@ -61,6 +61,7 @@ const Header = () => {
                                     alt="User avatar"
                                     width="24"
                                     height="24"
+                                    className='rounded-full'
                                 />
                             </div>
                             <img src={arrowFilled.src} alt="Arrow down"/>
