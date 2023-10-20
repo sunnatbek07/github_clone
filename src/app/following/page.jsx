@@ -46,7 +46,7 @@ const page = () => {
                                         
                                         </a>
 
-                                        <button className="border p-2 px-4 duration rounded-lg hover:bg-slate-300">Follow</button>
+                                        <button className="border p-2 px-4 duration rounded-lg hover:bg-slate-300">Unfollow</button>
                                     </div>
                                 </div>
                             </li>
